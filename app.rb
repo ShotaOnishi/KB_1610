@@ -103,6 +103,7 @@ post '/callback' do
     callback_observer.add_observer(LocalMessage.new)
     callback_observer.add_observer(NickNameMessage.new)
     callback_observer.add_observer(IndiaMessage.new)
+    callback_observer.add_observer(SightseeingMessage.new)
   elsif message_type == "image"
     callback_observer.add_observer(ImageInfoMessage.new(client))
   else

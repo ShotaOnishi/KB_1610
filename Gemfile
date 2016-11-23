@@ -42,3 +42,5 @@ gem 'gmaps4rails'
 
 gem 'capybara'
 gem 'poltergeist'
+
+gem "foreman"
