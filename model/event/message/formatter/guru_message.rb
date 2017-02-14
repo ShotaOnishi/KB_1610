@@ -62,6 +62,8 @@ class GuluMessage
 
       p areacode_l
 
+      p "ああああああああああああ"
+
 
 
     #レストラン情報取得
